@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Practica de funciónes.</title>
+	</head>
+	<body>
+		<div id="ejercicios">
+			<h2>Ejercicio 1:</h2>
+			<h3>Hacer una función que sume dos parametros.</h3>
+			<label for="ej1_a">Suma:</label>
+			<input type="number" name="" id="ej1_a" />
+			<strong>+</strong>
+			<input type="number" name="" id="ej1_b" />
+			<input
+				type="button"
+				class="button"
+				onclick="ejercicio1()"
+				value="Resolver"
+			/>
+			<p id="ej1_resp" class="respuesta"></p>
+			<hr />
+
+			<h2>Ejercicio 2:</h2>
+			<h3>Hacer una función que reste dos parametros.</h3>
+			<label for="ej2_a">Resta:</label>
+			<input type="number" name="" id="ej2_a" />
+			<strong>-</strong>
+			<input type="number" name="" id="ej2_b" />
+			<input
+				type="button"
+				class="button"
+				onclick="ejercicio2()"
+				value="Resolver"
+			/>
+			<p id="ej2_resp" class="respuesta"></p>
+			<hr />
+
+			<h2>Ejercicio 3:</h2>
+			<h3>Hacer una función que me indique si soy mayor de edad o no.</h3>
+			<label for="ej3_edad">Ingresa tu edad:</label>
+			<input type="number" name="ej3_edad" id="ej3_edad" />
+			<input
+				type="button"
+				class="button"
+				onclick="ejercicio3()"
+				value="Resolver"
+			/>
+			<p id="ej3_resp" class="respuesta"></p>
+			<hr />
+
+			<h2>Ejercicio 4:</h2>
+			<h3>
+				Hacer una función que evalue si el numero es 0, positivo o negativo.
+			</h3>
+			<label for="ej4_num">Ingresa un numero:</label>
+			<input type="number" name="ej4_num" id="ej4_num" />
+			<input
+				type="button"
+				class="button"
+				onclick="ejercicio4()"
+				value="Resolver"
+			/>
+			<p id="ej4_resp" class="respuesta"></p>
+			<hr />
+
+			<h2>Ejercicio 5:</h2>
+			<h3>Hacer una función que retorne si es vocal o consonante.</h3>
+			<label for="ej5_letra">Ingresa una letra:</label>
+			<input type="text" name="ej5_letra" id="ej5_letra" />
+			<input
+				type="button"
+				class="button"
+				onclick="ejercicio5()"
+				value="Resolver"
+			/>
+			<p id="ej5_resp" class="respuesta"></p>
+			<hr />
+
+			<h2>Ejercicio 6:</h2>
+			<h3>Hacer una función para el juego de piedra papel y tijera.</h3>
+			<label for="ej6_player1">Jugador 1:</label>
+			<select name="ej6_player1" id="ej6_player1">
+				<option value="piedra">Piedra</option>
+				<option value="papel" selected>Papel</option>
+				<option value="tijeras">Tijeras</option>
+			</select>
+			<label for="ej6_player2">Jugador 2:</label>
+			<select name="ej6_player2" id="ej6_player2">
+				<option value="piedra">Piedra</option>
+				<option value="papel" selected>Papel</option>
+				<option value="tijeras">Tijeras</option>
+			</select>
+			<input
+				type="button"
+				class="button"
+				onclick="ejercicio6()"
+				value="Resolver"
+			/>
+			<p id="ej6_resp" class="respuesta"></p>
+			<hr />
+		</div>
+
+		<script src="./main.js"></script>
+	</body>
+</html>

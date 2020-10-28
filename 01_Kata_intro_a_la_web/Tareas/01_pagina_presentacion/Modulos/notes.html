@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../style.css" />
+		<title>APUNTES DEV.F</title>
+	</head>
+	<body>
+		<header>
+			<div #title>
+				<h1>MASTER EN CODING - DEV.F</h1>
+			</div>
+
+			<nav>
+				<ul>
+					<li>
+						<a
+							href="/01_Kata_intro_a_la_web/Tareas/01_pagina_presentacion/index.html"
+							>Sobre Mi</a
+						>
+					</li>
+					<li>
+						<a
+							href="/01_Kata_intro_a_la_web/Tareas/01_pagina_presentacion/Modulos/notes.html"
+							>Apuntes</a
+						>
+					</li>
+					<li>
+						<a
+							href="/01_Kata_intro_a_la_web/Tareas/01_pagina_presentacion/Modulos/softskills_notes.html"
+							>Apuntes SoftSkills</a
+						>
+					</li>
+					<li>
+						<a
+							href="/01_Kata_intro_a_la_web/Tareas/01_pagina_presentacion/Modulos/add_notes.html"
+							>Agregar Apunte</a
+						>
+					</li>
+					<li>
+						<a
+							href="/01_Kata_intro_a_la_web/Tareas/01_pagina_presentacion/Modulos/devf_access.html"
+							>DEV.F</a
+						>
+					</li>
+					<li>
+						<a
+							href="/01_Kata_intro_a_la_web/Tareas/01_pagina_presentacion/Modulos/resources.html"
+							>Recursos</a
+						>
+						<!-- <ul>
+							<li>
+								<a href="">HTML</a>
+							</li>
+							<li>
+								<a href="">CSS</a>
+							</li>
+							<li>
+								<a href="">JavaScript</a>
+							</li>
+							<li>
+								<a href="">Otros</a>
+							</li>
+						</ul> -->
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<hr />
+		<main>
+			<article>
+				<section>
+					<h2 class="topic">01_Introducción a la WEB</h2>
+
+					<h3 class="day-title">Día 1:</h3>
+					<h4 class="day-subject">Introducción a HTML</h4>
+					<div class="day-content">
+						<ul>
+							<li>
+								Como funciona el internet:
+								<ul>
+									<li>Conceptos de backend-frontend</li>
+									<li>Lenguajes HTML, CSS y JavaScript.</li>
+								</ul>
+							</li>
+							<li>
+								Convenciones al combinar palabras:
+								<ul>
+									<li>camelCase</li>
+									<li>PascalCase</li>
+									<li>snake_case</li>
+									<li>kebab-case</li>
+								</ul>
+								<a
+									href="https://medium.com/better-programming/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841"
+									>Leer más</a
+								>
+							</li>
+							<li>
+								Instalación de VSCode y las siguientes extensiones:
+								<ul>
+									<li>Prettier (AutoFormato al guardar).</li>
+									<li>One Dark Pro (Tema).</li>
+									<li>
+										Bracket Pair Colorizer 2 (Diferencia de color en los
+										corchetes)
+									</li>
+									<li>Material Icon Theme (Iconos)</li>
+									<li>
+										Live Server (Crea servidor local que recarga al guardar)
+									</li>
+								</ul>
+							</li>
+
+							<li>
+								Primer HolaMundo:
+								<ul>
+									<li>Headers: &lt;h1&gt;, &lt;h2&gt;.. &lt;h6&gt;</li>
+									<li>Parrafos: &lt;p&gt;</li>
+									<li>Imágenes: &lt;img&gt;</li>
+									<li>Links: &lt;a&gt;</li>
+								</ul>
+							</li>
+						</ul>
+						<div class="day-links">
+							<a href="../../../01_intro_html/index.html"
+								>Link con la Práctica</a
+							>
+							<a
+								href="/01_Kata_intro_a_la_web/Tareas/01_pagina_presentacion/index.html"
+								>Link con la Tarea</a
+							>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 2:</span></h3>
+					<h4 class="day-subject">Introducción a CSS</h4>
+					<div class="day-content">
+						<ul>
+							<li>
+								Sintaxis:
+								<br />
+								<img src="../img/elementos_css.jpeg" alt="Sintaxis CSS" />
+							</li>
+							<li>
+								Atributos:
+								<ul>
+									<li>Para Textos:</li>
+									<ul>
+										<li>Color -> color: red;</li>
+										<li>Color de Fondo -> background-color: black;</li>
+										<li>Alinear Texto -> text-align: center;</li>
+									</ul>
+									<li>Para Imagenes:</li>
+									<ul>
+										<li>Altura -> height: 200px;</li>
+										<li>Ancho -> width: 200px;</li>
+									</ul>
+								</ul>
+							</li>
+						</ul>
+						<div class="day-links">
+							<a href="../../../02_intro_css/index.html">Link con la Teoría</a>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 3:</span></h3>
+					<h4 class="day-subject">HTML Semántico</h4>
+					<div class="day-content">
+						<ul>
+							<li>Terminología:</li>
+							<ul>
+								<li>Que es un Dominio: Puerta de acceso al sitio.</li>
+								<li>
+									Que es un Hosting: Servicio donde se almacena la informacion,
+									imágenes, video o cualquier contenido accesible vía web.
+								</li>
+							</ul>
+							<li>Etiquetas Semánticas:</li>
+							<img src="../img/Semantica_HTML.jpeg" alt="Semantica HTML 1" />
+							<img src="../img/Semantica_HTML2.PNG" alt="Semantica HTML 2" />
+						</ul>
+						<div class="day-links">
+							<a href="../../../03_semantica_html/index.html"
+								>Link con la Teoría</a
+							>
+							<a
+								href="/01_Kata_intro_a_la_web/Tareas/01_pagina_presentacion/index.html"
+								>Link con la Práctica</a
+							>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 4:</span></h3>
+					<h4 class="day-subject">Box Model</h4>
+					<div class="day-content">
+						<ul>
+							<li>
+								Propiedades de CSS:
+								<ul>
+									<li>Border: Agrega borde al contenido de una etiqueta.</li>
+									<li>Margin: Espacio desde el borde hacia afuera.</li>
+									<li>Padding: Espacio desde el borde hacia adentro.</li>
+								</ul>
+								<br />
+								<img src="../img/BoxModel.PNG" alt="Box Model" />
+							</li>
+
+							<li>
+								Display de elementos:
+								<ul>
+									<li>
+										block: Permite modificar alto y ancho, pero no permite un
+										elemento al lado.
+									</li>
+									<li>
+										inline: No permite modificar alto y ancho, pero si permite
+										un elemento al lado. También se puede agregar margin(left y
+										right) y padding.
+									</li>
+									<li>
+										inline-block: Combinacion de ambas. Permite modificar ancho
+										y altura y permite elementos al lado.
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<div class="day-links">
+							<a href="../../../04_box_model/index.html">Link con la Teoría</a>
+							<a href="../../../Tareas/04_google_clone/index.html"
+								>Link con la Práctica</a
+							>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 5:</span></h3>
+					<h4 class="day-subject">Flex Box</h4>
+					<div class="day-content">
+						<ul>
+							<li>Contexto: Apple lanza navegador web para móviles.</li>
+							<li>
+								Responsive Design: Adaptar la apariencia de la web para
+								distintos dispositivos.
+							</li>
+							<li>
+								Flex Box: Flexible Boxes: contenedores que se adaptan a la
+								pantalla del dispositivo automáticamente.
+							</li>
+							<li>
+								Propiedades:
+								<ul>
+									<li>
+										justify-content - alineación eje x:
+										<a
+											href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_justify-content"
+											>En Acción</a
+										><br />align-items - alineación eje y:
+										<a
+											href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-items"
+											>En Acción</a
+										>
+										<ul>
+											<li>center: alineación al centro del contenedor.</li>
+											<li>
+												flex-start: alineación al comienzo del contenedor.
+											</li>
+											<li>flex-end: alineación al final del contenedor.</li>
+											<li>
+												space-between: los elementos se distribuyen con espacios
+												entre los elementos.
+											</li>
+											<li>
+												space-around: los elementos se distribuyen con espacios
+												entre los elementos y los bordes.
+											</li>
+										</ul>
+									</li>
+									<li>
+										flex-direction: [column o row]: da dirección a los elementos
+										del contenedor.
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<div class="day-links">
+							<a href="../../../05_flex_box/index.html">Link con la Teoría</a>
+							<a href="../../../Tareas/05_ejercicios_flex_box/index.html"
+								>Link con los Ejercicios</a
+							>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 6:</span></h3>
+					<h4 class="day-subject">Formularios</h4>
+					<div class="day-content">
+						<ul>
+							<li>
+								Etiquetas:
+								<ul>
+									<li>form</li>
+									<li>
+										input
+										<ul>
+											<li>text</li>
+											<li>password</li>
+											<li>number</li>
+											<li>tel</li>
+											<li>email</li>
+											<li>date</li>
+											<li>time</li>
+											<li>range</li>
+											<li>checkbox</li>
+											<li>datalist</li>
+											<li>textarea</li>
+											<li>submit</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<div class="day-links">
+							<a href="../../../06_forms/index.html">Link con la Teoría</a>
+							<a href="../../../Tareas/06_ejercicios_form/index.html"
+								>Link con los Ejercicios</a
+							>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 7:</span></h3>
+					<h4 class="day-subject">Responsive Design</h4>
+					<div class="day-content">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<div class="day-links">
+							<a href="../../../07_responsive_design/index.html"
+								>Link con la Teoría</a
+							>
+							<a href="">Link X</a>
+						</div>
+					</div>
+				</section>
+				<hr />
+
+				<section>
+					<h2 class="topic">02_Javascript</h2>
+					<h3 class="day-title"><span>Día 8:</span></h3>
+					<h4 class="day-subject">Introducción a JavaScript</h4>
+					<div class="day-content">
+						<ul>
+							<li>Programa: ...</li>
+							<li>Lenguaje de Programacion: ...</li>
+							<li>Historia JavaScript: ...</li>
+							<li>
+								Variables:
+								<ul>
+									<li>String: Cadena de texto.</li>
+									<li>Number: Valor numérico.</li>
+									<li>Boolean: Valores de lógica binaria.</li>
+									<li>Operadores Numéricos: +, :, * , /</li>
+									<li>Operadores Relacionales: ==, !=, >, <, >=, <=</li>
+									<li>Operadores Lógicos: ||, &&, !</li>
+								</ul>
+							</li>
+						</ul>
+						<div class="day-links">
+							<a href="../../../../02_Kata_JS/01_intro_js/index.html"
+								>Link con la práctica</a
+							>
+							<a href="../../../../02_Kata_JS/01_intro_js/ejercicios/index.html"
+								>Link con los ejercicios</a
+							>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 9:</span></h3>
+					<h4 class="day-subject">{{Nombre de la Clase}}</h4>
+					<div class="day-content">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<div class="day-links">
+							<a href="">Link X</a>
+							<a href="">Link X</a>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 10:</span></h3>
+					<h4 class="day-subject">{{Nombre de la Clase}}</h4>
+					<div class="day-content">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<div class="day-links">
+							<a href="">Link X</a>
+							<a href="">Link X</a>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 11:</span></h3>
+					<h4 class="day-subject">{{Nombre de la Clase}}</h4>
+					<div class="day-content">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<div class="day-links">
+							<a href="">Link X</a>
+							<a href="">Link X</a>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 12:</span></h3>
+					<h4 class="day-subject">{{Nombre de la Clase}}</h4>
+					<div class="day-content">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<div class="day-links">
+							<a href="">Link X</a>
+							<a href="">Link X</a>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 13:</span></h3>
+					<h4 class="day-subject">{{Nombre de la Clase}}</h4>
+					<div class="day-content">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<div class="day-links">
+							<a href="">Link X</a>
+							<a href="">Link X</a>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 14:</span></h3>
+					<h4 class="day-subject">{{Nombre de la Clase}}</h4>
+					<div class="day-content">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<div class="day-links">
+							<a href="">Link X</a>
+							<a href="">Link X</a>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 15:</span></h3>
+					<h4 class="day-subject">{{Nombre de la Clase}}</h4>
+					<div class="day-content">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<div class="day-links">
+							<a href="">Link X</a>
+							<a href="">Link X</a>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 16:</span></h3>
+					<h4 class="day-subject">{{Nombre de la Clase}}</h4>
+					<div class="day-content">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<div class="day-links">
+							<a href="">Link X</a>
+							<a href="">Link X</a>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 17:</span></h3>
+					<h4 class="day-subject">{{Nombre de la Clase}}</h4>
+					<div class="day-content">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<div class="day-links">
+							<a href="">Link X</a>
+							<a href="">Link X</a>
+						</div>
+					</div>
+				</section>
+				<hr />
+				<section>
+					<h3 class="day-title"><span>Día 18:</span></h3>
+					<h4 class="day-subject">{{Nombre de la Clase}}</h4>
+					<div class="day-content">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<div class="day-links">
+							<a href="">Link X</a>
+							<a href="">Link X</a>
+						</div>
+					</div>
+				</section>
+			</article>
+		</main>
+
+		<footer>Prototipo de Apuntes - Nicolás Pérez ©</footer>
+	</body>
+</html>

@@ -1,0 +1,88 @@
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	background: repeating-linear-gradient(45deg, rgb(27, 27, 27) 0px, rgb(27, 27, 27) 97px, rgb(24, 24, 24) 97px, rgb(24, 24, 24) 194px, rgb(20, 20, 20) 194px, rgb(20, 20, 20) 291px);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1 {
+	color: #eee;
+	text-align: center;
+	font-size: 70px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	letter-spacing: 5px;
+	background-color: rgba(255, 0, 0, 0.6);
+	padding: 10px 40px;
+	border-radius: 20px;
+	text-shadow: 5px 5px 5px #1b1b1b;
+	border: 10px solid black;
+	box-shadow: 0px 0px 30px 5px rgba(255, 32, 32, 0.2);
+	/* text-shadow: 0 3px 15px rgba(255, 0, 0, 0.8); */
+}
+
+.card {
+	border-radius: 20px;
+	background-color: #eee;
+	padding: 20px;
+	margin: 10px;
+	top: 0;
+	text-align: center;
+	box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+	transition: all 0.35s ease 0s;
+}
+
+.card:hover {
+	top: -10px;
+	cursor: url(https://cdn.custom-cursor.com/db/249/32/arrow2282.png), auto;
+}
+.card:active {
+	cursor: url(https://cdn.custom-cursor.com/db/250/32/arrow2282.png), auto;
+}
+
+.card > .card-image {
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+	margin: 0 auto;
+}
+
+.card > .card-image > img {
+	margin-top: 20px;
+	max-width: 90%;
+}
+
+.card > .card-body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 200px;
+}
+
+.card > .card-body > .card-number {
+	background-color: rgba(0, 0, 0, 0.45);
+	color: white;
+	border-radius: 10px;
+	padding: 5px 0px;
+	width: 100px;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.card > .card-body > .card-name {
+	margin: 15px 0 10px;
+	font-weight: bolder;
+	font-size: 25px;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 1px #1b1b1b56;
+}
+
+.card > .card-body > .card-type,
+.card-weight {
+	margin-bottom: 0px;
+	text-align: start;
+}

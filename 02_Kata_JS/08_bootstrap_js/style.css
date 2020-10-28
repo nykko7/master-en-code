@@ -1,0 +1,18 @@
+.form-container {
+	min-height: 400px;
+	border: 2px solid black;
+}
+
+#exampleLabelEmail1,
+#exampleLabelPassword1 {
+	position: relative;
+	top: 39px;
+	left: 13px;
+}
+
+.focused {
+	font-size: 14px;
+	top: 5px !important;
+	left: 5px !important;
+	transition: all 0.5s;
+}

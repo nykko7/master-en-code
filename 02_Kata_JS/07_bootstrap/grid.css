@@ -1,0 +1,28 @@
+.dictador {
+	border: black 2px solid;
+	height: 500px;
+	margin-top: 50px;
+}
+
+.item1 {
+	background-color: blueviolet;
+	height: 150px;
+}
+
+.item2 {
+	background-color: chocolate;
+	height: 150px;
+}
+
+.item3 {
+	background-color: seagreen;
+	height: 150px;
+}
+
+.item4 {
+	height: 150px;
+}
+
+.item5 {
+	height: 150px;
+}

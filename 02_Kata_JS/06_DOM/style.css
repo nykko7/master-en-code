@@ -1,0 +1,38 @@
+body {
+	display: flex;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	justify-content: center;
+	background-color: #1b264f;
+	color: #302b27;
+}
+
+#ejercicios {
+	margin-top: 20px;
+	background-color: #f5f3f5;
+	padding-left: 50px;
+	padding-right: 50px;
+	border: cadetblue 10px solid;
+}
+
+h2 {
+	margin-bottom: 0px;
+}
+h3 {
+	margin-top: 0px;
+}
+.button {
+	color: #f5f3f5;
+	background-color: #1b264f;
+	font-weight: bold;
+	border: 0px;
+	border-radius: 25px;
+	height: 25px;
+}
+
+.respuesta {
+	background-color: #f7e733;
+	/* color: #f5f3f5; */
+	font-weight: bold;
+	max-width: 100%;
+	text-align: center;
+}

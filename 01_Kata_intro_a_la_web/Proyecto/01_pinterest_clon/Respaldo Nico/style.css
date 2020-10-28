@@ -1,0 +1,294 @@
+body {
+	font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.photo {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	width: 236px;
+}
+
+.photo:hover {
+	filter: brightness(60%);
+	transition: filter 0.5s;
+	cursor: zoom-in;
+}
+
+img {
+	border-radius: 15px;
+	max-width: 100%;
+}
+
+.description-section {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.description-section p {
+	font-size: 14px;
+}
+
+.description-section > .description {
+	display: flex;
+	justify-content: center;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 20px 0px;
+	border-radius: 32px;
+	padding: 20px;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .description-top-buttons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.description-section
+	> .description
+	> .column-description
+	> .description-top-buttons
+	.left-buttons
+	button {
+	min-height: 44px;
+	min-width: 44px;
+	border-radius: 50%;
+	border-style: none;
+	background-color: white;
+	padding: 0px;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .description-top-buttons
+	.left-buttons
+	button:hover {
+	background-color: #e2e2e2;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .description-top-buttons
+	.save {
+	background-color: #e60023;
+	border-radius: 22px;
+	border-style: none;
+	font-weight: bold;
+	color: white;
+	height: 40px;
+	width: 80px;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .description-top-buttons
+	.save:hover {
+	background-color: #a00018;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .description-top-buttons {
+	margin-bottom: 20px;
+}
+
+.description-section > .description > .column-image img {
+	width: 500px;
+	height: auto;
+	margin-bottom: 50px;
+	border-radius: 32px;
+}
+
+.description-section > .description > .column-description {
+	width: 465px;
+	padding: 40px;
+	margin-left: 20px;
+}
+
+.description-section > .description > .column-description a {
+	color: black;
+}
+
+.description-section > .description > .column-description h2 {
+	margin-top: 15px;
+	margin-bottom: 0px;
+	font-size: 35px;
+}
+
+.description-section > .description > .column-description > .account-section {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .account-section
+	> .left {
+	display: flex;
+	justify-content: center;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .account-section
+	> .left
+	> .column {
+	display: flex;
+	flex-direction: column;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .account-section
+	> .left
+	> .cuenta {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .account-section
+	> .left
+	> .column
+	> p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 10px;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .account-section
+	> .right
+	> button {
+	height: 50px;
+	width: 80px;
+	font-weight: bold;
+	border-radius: 24px;
+	border: 0px;
+	font-size: 15px;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .account-section
+	> .right
+	> button:hover {
+	background-color: #e2e2e2;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .photosAndComments-section {
+	margin-top: 30px;
+	display: flex;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .photosAndComments-section
+	> a {
+	margin-right: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .photosAndComments-section
+	> .comments {
+	color: #767676;
+}
+
+.description-section > .description > .column-description > hr {
+	margin-top: 0px;
+	margin-left: 0px;
+	height: 3px;
+	background-color: black;
+	width: 40px;
+}
+
+.description-section > .description > .column-description > .add-photo-section {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .add-photo-section
+	p {
+	margin: 0px;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .add-photo-section
+	> button {
+	height: 50px;
+	font-weight: bold;
+	border-radius: 24px;
+	border: 0px;
+	font-size: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .add-photo-section
+	> button:hover {
+	background-color: #e2e2e2;
+}
+
+.description-section > .description > .column-description > .saved-section {
+	display: flex;
+	margin-top: 40px;
+	align-items: flex-start;
+}
+
+.description-section
+	> .description
+	> .column-description
+	> .saved-section
+	> img {
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.description-section > .description > .column-description > .saved-section p {
+	margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+	.description-section > .description {
+		flex-direction: column;
+	}
+}
